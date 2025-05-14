@@ -1,0 +1,10 @@
+columns:
+  - coin  : object 
+  - symbol :  object 
+  - price  : float64
+  - 1h   : float64
+  - 24h    : float64
+  - 7d    : float64
+  - 24h_volume : float64
+  - mkt_cap  : float64
+  - date    : object 

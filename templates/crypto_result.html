@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: url('https://img.freepik.com/free-psd/3d-rendering-bitcoin-income-icon_23-2149390414.jpg?ga=GA1.1.666802911.1747174266&semt=ais_hybrid&w=740') no-repeat center center fixed;
+            background-size: cover;
+            color: rgb(255, 0, 0);
+            text-align: center;
+            font-size: 36px;
+            padding: 60px;
+        }
+        h1 {
+            margin-bottom: 30px;
+            font-size: 50px;
+            color:rgb(12, 11, 11);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            margin-bottom: 30px;
+            font-size: 40px;
+            color:rgb(233, 57, 4);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        .result-box {
+            background-color: #FFF3E0;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 20px auto;
+            display: inline-block;
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+            border: 2px solid #D32F2F;
+            text-align: left;
+        }
+        .result-box p {
+            font-size: 25px;
+            margin: 15px 0;
+            ext-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        a {
+            color: #D32F2F;
+            text-decoration: none;
+            font-size: 18px;
+            display: inline-block;
+            margin-top: 30px;
+            border: 1px solid #D32F2F;
+            padding: 10px 20px;
+            border-radius: 8px;
+            background-color: #FFF3E0;
+            box-shadow: 2px 2px 6px rgba(230, 103, 18, 0.98);
+        }
+        a:hover {
+            background-color: #FFE0B2;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Crypto Market Prediction Result</h1>
+    <div class="result-box">
+        <h2>Prediction Result</h2>
+        <p>{{ prediction_text }}</p>
+    </div>
+
+    <a href="/">Make Another Prediction</a>
+
+</body>
+</html>
+
+
+
+
