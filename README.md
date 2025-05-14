@@ -36,7 +36,7 @@ Dataset used
 3. Machine learning algorithms
 4. MongoDB
 
-# 📊 Final Report: Cryptocurrency Liquidity Prediction Web Application
+# Final Report: Cryptocurrency Liquidity Prediction Web Application
 
 This notebook documents the process and key features of the **Cryptocurrency Liquidity Prediction Web Application** built with **FastAPI** and **XGBoost**. The app integrates real-time cryptocurrency data submission, machine learning-based prediction of liquidity clusters, and user-friendly data visualization.
 
@@ -60,20 +60,18 @@ The **Cryptocurrency Liquidity Prediction Web App** is a FastAPI-powered applica
 ### Backend Architecture
 - **FastAPI:** Used for creating RESTful APIs that handle form submissions and predictions.
 - **XGBoost Classifier:** The machine learning model used to classify liquidity risk based on various market metrics.
-- **MongoDB:** NoSQL database used to store user-submitted cryptocurrency data.
-- **joblib:** For saving and loading the trained model and scaler.
 
 ---
 
 ## 3️⃣ Data Flow
 
 1. **Data Submission:**
-   - The user submits cryptocurrency market data (e.g., price, market cap, trading volume, etc.) through a form on the `/` route.
-   - The form data is stored in MongoDB via the `/submit` route.
+   - The user submits cryptocurrency market data (e.g., price, market cap, trading volume, etc.) 
+   
 
 2. **Model Training:**
    - The `/train_model` route reads historical clustered data from a CSV, scales the features, and trains an XGBoost model.
-   - The trained model and scaler are saved using `joblib`.
+   - The trained model and scaler are saved using `pickal`.
 
 3. **Prediction:**
    - On the `/predict` route, users submit new cryptocurrency data (similar to the training data format).
