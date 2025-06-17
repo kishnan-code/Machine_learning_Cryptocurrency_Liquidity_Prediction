@@ -1,7 +1,24 @@
-Flask==2.3.3
-flask-cors==4.0.0
-pandas==2.2.2
-mysql-connector-python==8.4.0
-scikit-learn==1.4.2
-inflect==7.2.0
+blinkerAdd commentMore actions
+click
+colorama
+Flask
+gunicorn
+itsdangerous
+Jinja2
+joblib
+MarkupSafe
+numpy
+packaging
+pandas
+python-dateutil
+pytz
+scikit-learn
+scipy
+six
+threadpoolctl
+tzdata
+Werkzeug
+xgboost
+scikit-learn
+
 
