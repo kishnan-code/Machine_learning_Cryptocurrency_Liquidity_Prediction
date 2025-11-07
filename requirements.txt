@@ -1,6 +1,3 @@
-blinkerAdd commentMore actions
-click
-colorama
 Flask
 gunicorn
 itsdangerous
